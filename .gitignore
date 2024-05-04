@@ -1,17 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Ignore node_modules in both root and client
 /node_modules
+/client/node_modules
+
+# Ignore build artifacts
 /.pnp
 .pnp.js
-
-# testing
-/coverage
-
-# production
 /build
 
-# misc
+# Ignore coverage files
+/coverage
+
+# Miscellaneous
 .DS_Store
 .env.local
 .env.development.local
